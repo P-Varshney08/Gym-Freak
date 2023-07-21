@@ -1,0 +1,54 @@
+.m{
+    background: linear-gradient(to top, grey, white, grey);
+    padding: 3rem;
+}
+.k{
+    padding: 1rem;
+    margin-left: 4rem;
+    width: 40%;
+}
+.lets{
+    color: rgb(0, 18, 212);
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 550;
+}
+.k p{
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+.bmii{
+    color: brown;
+}
+.inputs{
+    margin-top: 1rem;
+    display: flex;
+    gap: 10%;
+    margin-bottom: 1rem;
+}
+.inputs input{
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-style: italic;
+    border-radius: 6px;
+}
+.ans{
+    display: flex;
+    gap: 34%;
+    margin-bottom: 1.5rem;
+}
+.bt{
+    background-color: rgb(0, 18, 212);
+    color: aliceblue;
+    padding: 1rem;
+    border-radius: 15px;
+    font-size: large;
+    box-shadow: 8px 8px 9px wheat;
+}
+.bt:hover{
+    cursor: pointer;
+    transition: 0.4s;
+    color: brown;
+    background-color: aliceblue;
+    box-shadow: 10px 8px 9px rgb(59, 59, 59);
+}

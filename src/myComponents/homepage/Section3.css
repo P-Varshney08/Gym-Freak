@@ -1,0 +1,76 @@
+.h{
+    padding: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.l, .cn{
+    display: flex;
+    justify-content: space-between;
+}
+.cn{
+    padding: 6rem;
+    padding-left: 10rem;
+    gap: 51%;
+}
+.butt{
+    position: absolute;
+    margin-top: 45px;
+    background-color: rgb(81, 82, 83);
+    width: 240px;
+    height: 60px;
+    border-radius: 35px;
+    white-space: nowrap;
+}
+.butt a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.butt:hover{
+    background-color: red;
+    color: aliceblue;
+    cursor:pointer;
+}
+.butt p{
+    font-weight: bolder;
+    font-size: 1.4rem;
+    padding-top: 9px;
+    padding-left: 0;
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.g p{
+    position: relative;
+    margin-top: -45px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-left: 4rem;
+}
+.lf{
+    max-width: 37rem;
+}
+.rg{
+    display: flex;
+}
+.rg img{
+    position: absolute;
+}
+.girl{
+    left: 50rem;
+    filter: grayscale(100%);
+}
+.girl:hover{
+    filter: grayscale(0);
+    transition: 0.3s;
+}
+.cir{
+    left: 63rem;
+}
+.run{
+    left: 50rem;
+}
+.des{
+    top: 145%;
+    left: 69rem;
+    z-index: 3;
+}

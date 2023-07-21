@@ -1,0 +1,25 @@
+.s{
+    padding: 6rem;
+}
+.t{
+    display: flex;
+    justify-content: space-around;
+}
+.lgg{
+    display: flex;
+    gap: 5%;
+    justify-content: left;
+}
+.hdd{
+    font-size: 2rem;
+}
+ul{
+    list-style-type: none;
+}
+.ls{
+    width: 90px;
+    height: 3px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    background-color: red;
+}

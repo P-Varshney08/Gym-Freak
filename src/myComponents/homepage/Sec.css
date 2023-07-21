@@ -1,0 +1,23 @@
+.wahh{
+    color: aliceblue;
+}
+.hello{
+    background-color: brown;
+    color: beige;
+    padding: 5px;
+    position: absolute;
+    left: 7%;
+}
+.op{
+    filter: grayscale(1);
+}
+.op:hover{
+    filter: grayscale(0);
+    transform: scale3d(1.1, 1.1, 1.1);
+    /* transform: skew(5deg, -5deg); */
+    transition: 0.8s;
+}
+.kuch{
+    position: relative;
+    padding-top: 12rem;
+}

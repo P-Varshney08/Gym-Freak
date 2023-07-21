@@ -1,0 +1,52 @@
+.lg{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.sq_wtr{
+    font-family: cursive;
+    color: rgb(24, 24, 92);
+}
+.cardd{
+    padding: 1rem;
+    background-color: aliceblue;
+    border-radius: 13px;
+    position: relative;
+}
+.cardd:hover{
+    transform: scale(1.04);
+    .cng{
+        filter: brightness(0);
+    }
+
+}
+.cng{
+    filter: brightness(0) opacity(0.4);
+    margin-top: -20rem;
+}
+.ll{
+    margin-top: 2rem;
+    height: 3px;
+    width: 30%;
+    background-color: rgb(24, 24, 92);
+    justify-content: center;
+    margin-left: 35%;
+}
+.cc:hover{
+    .ll{
+        width: 100%;
+        margin-left: 0;
+        transition: 0.7s;
+    }
+}
+.pic{
+    filter: grayscale(100);
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.pic:hover{
+    filter: grayscale(0);
+    transition: 0.3s;
+}

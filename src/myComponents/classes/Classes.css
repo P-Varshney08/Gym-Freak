@@ -1,0 +1,15 @@
+.brahman{
+    margin: 4rem;
+    padding: 2rem;
+}
+.more button{
+    margin-left: 50%;
+    padding: 10px;
+}
+.slc{
+    color: aliceblue;
+    position: absolute;
+    top: 48%;
+    left: 45%;
+    z-index: 1;
+}

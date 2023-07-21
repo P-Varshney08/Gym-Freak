@@ -1,0 +1,20 @@
+.aboutt{
+    color: aliceblue;
+    position: absolute;
+    top: 48%;
+    left: 45%;
+    z-index: 1;
+}
+.xm{
+    margin: 6rem;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 0%;
+}
+.history{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}

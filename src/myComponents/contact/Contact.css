@@ -1,0 +1,84 @@
+.abouttt{
+    color: aliceblue;
+    position: absolute;
+    top: 48%;
+    left: 45%;
+    z-index: 1;
+}
+.fg{
+    margin-top: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+/* h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+} */
+.govind{
+    height: 4px;
+    width: 55px;
+    background-color: red;
+    margin-bottom: 1rem;
+}
+.sub2{
+    background-color: rgb(239, 236, 236);
+    padding: 2rem;
+}
+.sub2 input, select{
+    margin-bottom: 1rem;
+    height: 3rem;
+}
+.sub1_h1{
+    margin-bottom: 2rem;
+}
+.sub1 div{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+}
+.gagan{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    margin-top: 2rem;
+    background-color: red;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: aliceblue;
+}
+button:hover{
+    background-color: rgb(18, 117, 5);
+    transition: 0.7s;
+}
+.gov{
+    width: 50px;
+    background-color: red;
+    height: 4px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.lower_half{
+    margin-top: 3rem;
+    margin-left: -2.8rem;
+    display: flex;
+    gap:15%;
+}
+.gagan{
+    margin-top: 0.9rem;
+}
+.upper_half{
+    margin-top: 3rem;
+    /* margin-left: -2.8rem; */
+    display: flex;
+    gap:15%;
+
+}

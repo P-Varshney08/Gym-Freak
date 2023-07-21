@@ -1,0 +1,28 @@
+.j{
+    margin-top: 4rem;
+    background: linear-gradient(to bottom right, rgb(147, 145, 145), white, rgb(158, 158, 158));
+    padding: 6rem;
+    text-align: center;
+}
+.i img{
+    filter: brightness(0) opacity(0.5);
+}
+.i p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    position: absolute;
+    left: 44%;
+    margin-top: -2.7rem;
+    color: aliceblue;
+}
+.go p{
+    margin-bottom: 0;
+    color: rgb(92, 92, 92);
+}
+.go{
+    margin-bottom: 2rem;
+}
+.cd1{
+    display: flex;
+    justify-content: space-between;gap: 5%;
+}

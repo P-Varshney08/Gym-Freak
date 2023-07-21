@@ -1,0 +1,55 @@
+.a{
+    margin: 8px;
+    /* padding: 1rem; */
+    display: flex;
+    /* background-color: transparent; */
+    background-color: rgb(24, 24, 24);
+    align-items: center;
+    gap: 18%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    position: fixed;
+}
+.lst, .lgs, .join, .b{
+    display: flex;
+    gap: 6%;
+}
+.lst a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+.lst a:hover{
+    color: red;
+    transition: 0.3s;
+}
+.b{
+    width: 15rem;
+    align-items: center;
+}
+.join{
+    align-items: center;
+    padding: 4px;
+    border: 2px solid rgb(96, 95, 95);
+    border-radius: 8px;
+    width: 20rem;
+}
+.join div{
+    color: aliceblue;
+    font-size: 25px;
+    background-color: red;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.ekline{
+    text-transform: uppercase;
+    color: aliceblue;
+    white-space: nowrap;
+    margin-left: -10px;
+    padding-top: 12px;
+}

@@ -1,0 +1,29 @@
+.n{
+    margin: 4rem;
+    text-align: center;
+}
+.upar img{
+    position: relative;
+    width: 15rem;
+    margin: 1rem;
+}
+.upar p{
+    position: relative;
+    margin-top: -2.9rem;
+    z-index: 2;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: aliceblue;
+}
+.heading{
+    padding: 1rem;
+    font-weight: 650;   
+}
+.dd{
+    margin: 2rem;
+}
+.q{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,23 @@
+.gl{
+    margin: 6rem;
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+.gall{
+    color: aliceblue;
+    position: absolute;
+    top: 48%;
+    left: 45%;
+    z-index: 1;
+}
+.gl img{
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 2rem;
+}
+.wrap{
+    margin-left: 1rem;
+    overflow-x: auto;
+    white-space: nowrap;
+}
