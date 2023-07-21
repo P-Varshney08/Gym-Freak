@@ -1,0 +1,29 @@
+.lo_gaya{
+    background-color: white;
+    padding: 12px;
+    position: absolute;
+    margin-top: 14.3rem;
+    margin-left: -14rem;
+    font-size: large;
+    font-style: italic;
+    color: black;
+    font-weight: bolder;
+}
+.go{
+    text-align: center;
+}
+.ov button{
+    margin-left: 7rem;
+}
+.pc img{
+    filter: grayscale(1);
+}
+.pc img:hover{
+    filter: none;
+}
+.pc{
+    border: 1px solid grey;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 5px 8px 13px grey;
+}

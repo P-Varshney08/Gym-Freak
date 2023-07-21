@@ -1,0 +1,51 @@
+.aao{
+    margin: 6rem;
+    padding: 15px;
+    margin-left: 13rem;
+}
+
+.block{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(234, 234, 234);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    width: 70vw;
+}
+.block div p{
+    font-size: 19px;
+}
+.class_name h2{
+    color: black;
+}
+.jin{
+    margin-right: 3.2rem;
+    margin-top: 1.4rem;
+    width: 10%;
+    text-align: center;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid grey;
+    background-color: rgb(47, 47, 47);
+}
+.jin:hover{
+    background-color: aliceblue;
+}
+.jin a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    padding-left: 0.2rem;
+    font-weight: bold;
+}
+.jin a:hover{
+    color: black;
+}
+.gr{
+    font-size: 20px;
+    color: rgb(106, 106, 106);
+}

@@ -1,0 +1,27 @@
+.topbar{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin: 5rem;
+}
+.topbar button{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 110px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid grey;
+}
+.topbar button.active-button{
+    background-color: red;
+    color: aliceblue;
+}
+.topbar button:hover{
+    background-color: red;
+    color: aliceblue;
+    transition: 0.4s;
+}

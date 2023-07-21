@@ -1,0 +1,31 @@
+.pricingg{
+    color: aliceblue;
+    position: absolute;
+    top: 48%;
+    left: 45%;
+    z-index: 1;
+}
+.no_days{
+    position: absolute;
+    z-index: 2;
+    left: 4rem;
+    margin-top: -50%;
+}
+.top{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    text-align: center;
+}
+.top1{
+    display: flex;
+    margin: 4rem;
+    gap: 7%;
+    justify-content: center;
+    margin-top: -30%;
+}
+.top h3{
+    margin-top: -2.5rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
